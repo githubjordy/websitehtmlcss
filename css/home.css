@@ -1,0 +1,515 @@
+body{
+padding:0px;
+margin:0px;  
+}
+
+#mobilefootermenu{
+
+    display:none;
+}
+
+#mobilemenu{
+display:none;
+
+}
+#mainnav{
+
+background-color:lightgreen;  
+display: flex; 
+justify-content: flex-end;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+   
+  }
+
+
+nav ul li{     
+    font-weight:bold;
+    font-size:18px;
+    display: inline-block;  
+    margin-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav ul li:nth-child(4){
+    margin-right:20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    
+}
+
+
+.banner{
+
+background-image:url("../images/pexels-shvets-anna-2574471.jpg")   ;
+height:600px;
+position:relative;
+
+}
+#Banner_div{
+    background-color:darkgreen;
+    display: inline-block;
+    width: 50%;
+    height:500px;
+    clip-path:polygon(10% 10%, 100% 0,100% 100%, 0 100%);
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.Custom_h{
+    color:white;
+    text-align: center;
+    margin-top: 100px;
+}
+.Custom_paragraph{
+    color:white;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+#Banner_header{
+color:white;
+font-size:54px;
+margin:0px;
+padding:0px;
+padding-top: 200px;
+
+}
+
+.Banner_button{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;  
+  cursor: pointer;
+  margin: 0 auto;
+  border: 3px solid white;
+}
+#Banner_div_combine{
+
+    display:inline-block;
+    position:absolute;
+    left: 377px;
+   
+}
+
+.parallax {
+    padding-top:100px;
+    background-image: url("../images/nathan-dumlao-hyPXR6p1D7g-unsplash.jpg"); 
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+  }
+
+.Parallaxtext{
+
+    background-color:darkgreen;
+    padding-top: 20px;
+    width:40%;
+    margin-bottom:80px;
+    
+}
+.Custom2_h{
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+}
+.Custom2_paragraph{
+    color:white;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#section3{
+    background-image:url("../images/pexels-andrew-neel-5860599.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    position:relative;
+    
+}
+
+#section3_div{
+background-color:white;
+height:100%;
+clip-path:polygon(0 0, 40% 10%,70% 100%, 0% 100%);
+
+
+
+}
+.Custom3_h{
+    margin:0px;
+    text-align: center
+   
+}
+
+#divwrappersection3{
+    position:absolute;
+    top: 80px;
+    left: 50px;
+}
+
+#section3image{
+    border-radius: 50%;
+    width: 640px;
+    height: 380px;
+}
+
+
+#section4{
+
+/*background-color:lightblue;*/
+background-color:lightgray;
+
+}
+
+.section4images{
+    border-radius: 50%;
+    width: 240px;
+    height: 230px; 
+    margin: 0 auto;
+    display: block;
+}
+#section4wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+#section4header{
+
+    text-align:center;
+}
+
+.section4header2{
+
+    text-align:center;
+}
+.footer{   
+    display:flex;
+  
+}
+footer{
+    background-color:black;
+}
+.footerdiv{
+    color:white;
+    flex:1;
+    text-align:center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .footerlisttitle{
+      color:white;
+      font-size:34px;
+  }
+
+  #footerlist{
+     
+      font-size:24px;
+  }
+
+  .hrline{
+
+    color:white;
+    border: 2px solid white;
+   
+  }
+
+  #footerspan{
+    text-align: center;
+    width: 100%;
+    display: block;
+    color:white;
+    padding-top: 110px;
+    padding-bottom: 20px;
+  }
+
+  #footeritemwrapper{
+    display:flex;
+    align-items:center;
+    height: 100%;
+
+  }
+
+  #footerlist a:link {
+    color: lightblue;
+    text-decoration: none;
+  }
+  a:hover{
+    opacity: 0.7;
+  }
+
+.Banner_buttons4{
+   
+    background-color: darkgreen; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%; 
+    border: 4px solid white;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.Banner_buttons4:hover{
+    opacity: 0.7;
+}
+
+.Banner_button:hover{
+    opacity: 0.7;
+}
+
+#mobilebuttonbanner{
+
+    display:none;
+}
+#mobilenavbackground{
+    background-color:gray;
+    opacity: 0.6;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:1;
+    top:0;
+}
+
+#mobilenavmenu{
+    position:fixed;
+    background-color:black;
+    z-index:2;
+    right:0;
+    height:100%;
+    top:0;
+    width:70%;
+}
+
+#mobileul{
+    margin-top:100px;
+
+}
+.mobilelist{
+    border-top:1px solid white; 
+    display:block;
+    margin-right:0px;
+    text-align:center;
+        
+}
+
+.mobilelist:nth-child(4){
+    margin-right:0px;
+}
+
+#mobilelogo{
+    margin:0 auto;
+    display:block;
+}
+
+
+/*new stuff*/
+.toggle-button{  
+    flex-direction:column;
+    height:64px;
+    width:56px;   
+    background:transparent;
+    border:none;
+    cursor: pointer;
+    padding:0;
+    box-sizing:border-box;
+    justify-content:space-evenly;
+    display:none;
+}
+.toggle-button:a{
+    outline:none;
+    
+}
+.toggle-button__line{
+    width:100%;
+    height:4px;
+    background:white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .toggle-button{
+
+        display:flex;
+        margin-right:10px;
+    }
+
+    #pcnav{
+        display:none;
+
+    }
+}
+
+
+@media only screen and (max-width: 1316px) {
+
+    #mobilebuttonbanner{
+        display:block;
+        margin-top:10px;
+    }
+    #Banner_div{height:100%; }
+    #Banner_div_combine{display:none}
+}
+
+
+@media only screen and (max-width: 617px) {
+
+
+    #pcparallaxtest{display:none;}
+                     
+    .Parallaxtext{width:60%;}
+
+    .banner{height:900px;}
+    #mobilebuttonbanner{
+        display:block;
+        margin-top:10px;
+    }
+   /* #Banner_div{height:100%; }*/
+}
+
+
+@media only screen and (max-width: 794px) and (min-width: 618px) {
+
+   /* #Banner_div{height:100%; }*/
+    #mobilebuttonbanner{
+        display:block;
+        margin-top:10px;
+    }
+    .banner{height:700px;}
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+
+
+    #Banner_div{width:70%;}
+   
+    
+}
+
+@media only screen and (max-width: 1351px) {
+
+    #section3{background-image:none; height:500px;}
+    #section3_div{clip-path:none;}
+    #divwrappersection3{position:static; text-align:Center;}
+
+}
+
+@media only screen and (max-width: 670px){
+
+    #section3image{width:340px; height:280px;}
+    #section3{height:400px;}
+
+
+}
+
+@media only screen and (max-width: 735px){
+
+    #footerspan{
+
+        padding-top:0px;
+    }
+    div.footerdiv:nth-child(1) > img:nth-child(1){
+        width:170px;
+    }
+    #footerlist{
+        font-size: 14px;
+    }
+    .fa{
+        padding:10px;
+    }
+    /*#footeritemwrapper{
+       /* flex-direction:column;
+    }*/
+    div.footerdiv:nth-child(2){
+        display:none;
+    }
+    #mobilefootermenu{
+        display:block;
+    }
+
+    .footerlistitem{
+        display:inline-block;
+        margin-right:10px;
+    }
+    #footerlist{
+        text-align: center;
+    }
+    #footerlisttitle{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 460px){
+
+    #footeritemwrapper{flex-direction:column;}
+    #section3image{width:240px; height:180px}
+    .Parallaxtext{width:80%;}
+    #section3{height:300px;}
+    .banner{height:1150px;}
+}
